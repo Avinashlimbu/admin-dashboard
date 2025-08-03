@@ -31,4 +31,43 @@ ul, li {
 
 .header {
     grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.nav > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.nav form {
+    display: grid;
+    align-items: center;
+}
+
+.profile-pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-pic img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+/* sidebar styling */
+
+
+.sidebar {
+    display: grid;
+    grid-row: 1 / 5;
 }
