@@ -1,4 +1,18 @@
-* {
-    background-color: red;
 
+/* universal css */
+
+html, body {
+    margin: 0;
 }
+
+div {
+    border: solid 1px black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+
