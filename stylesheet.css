@@ -1,12 +1,23 @@
 
 /* universal css */
 
+@font-face {
+    font-family: "Source Code Pro", monospace;
+    src: url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap);
+}
+
+
 html, body {
     margin: 0;
+    font-family: 'Source Code Pro';
 }
 
 div {
     border: solid 1px black;
+}
+
+ul, li {
+    list-style-type: none;
 }
 
 .container {
@@ -16,3 +27,8 @@ div {
 
 
 
+/* header styling */
+
+.header {
+    grid-column: 2;
+}
