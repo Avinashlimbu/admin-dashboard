@@ -70,4 +70,60 @@ ul, li {
 .sidebar {
     display: grid;
     grid-row: 1 / 5;
+    justify-content: center;
+}
+
+.sidenav > ul {
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.sidenav a {
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+/* icon images for sidebar*/
+
+#dashboard {
+    background-image: url(images/icons/engine.svg);
+}
+
+#home {
+    background-image: url(images/icons/home-account.svg);
+}
+
+#profile {
+    background-image: url(images/icons/account.svg);
+}
+
+#messages {
+    background-image: url(images/icons/message.svg);
+}
+
+#tasks {
+    background-image: url(images/icons/checkbox-marked-circle-auto-outline.svg);    
+}
+
+#communities {
+    background-image: url(images/icons/forum.svg);
+}
+
+#setting {
+    background-image: url(images/icons/engine.svg);
+}
+
+#support {
+    background-image: url(images/icons/face-agent.svg);
+}
+
+#privacy {
+    background-image: url(images/icons/privacy.svg);
+}
+
+#faq {
+    background-image: url(images/icons/chat-question.svg);
 }
