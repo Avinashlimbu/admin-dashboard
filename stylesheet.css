@@ -127,3 +127,7 @@ ul, li {
 #faq {
     background-image: url(images/icons/chat-question.svg);
 }
+
+.divider {
+    border: solid 1px grey;
+}
