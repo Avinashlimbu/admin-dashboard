@@ -131,3 +131,44 @@ ul, li {
 .divider {
     border: solid 1px grey;
 }
+
+
+/* Cards Styling */
+
+.article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.cards {
+    border: solid 1px blue;
+    display: grid;
+    padding: 20px;
+}
+
+/* #favourite {
+    background-image: url(images/icons/star.svg);
+} */
+
+#viewed {
+    background-image: url(images/icons/eye.svg);
+}
+
+#share {
+    background-image: url(images/icons/share-variant.svg);
+}
+
+.icons-control {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.card-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+}
