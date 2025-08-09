@@ -13,9 +13,9 @@ html, body {
     padding: 0;
 }
 
-div {
+/* div {
     border: solid 1px black;
-}
+} */
 
 ul, li {
     list-style-type: none;
@@ -23,7 +23,6 @@ ul, li {
 
 .container {
     display: grid;
-    gap: 20px;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 4fr;
     background-color: var(--bg-main);
@@ -40,6 +39,14 @@ ul, li {
     --accent-muted: #CC8225;
     --text-primary: #222222;
     --text-secondary: #555555;
+}
+
+a:hover {
+    color: var(--primary-light);
+}
+
+a {
+    color: var(--text-primary);
 }
 
 /* header styling */
@@ -104,7 +111,6 @@ ul, li {
     background-repeat: no-repeat;
     text-decoration: none;
     padding-left: 30px;
-    color: var(--text-primary);
 }
 
 /* icon images for sidebar*/
@@ -237,6 +243,12 @@ ul, li {
 .announcements {
     display: grid;
     grid-area: 2 / 4 / 4 / 4;
+    gap: 10px;
+    padding: 20px;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .trending {
@@ -264,6 +276,9 @@ ul, li {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     padding: 20px;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .trending-card > p { 
