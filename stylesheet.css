@@ -27,6 +27,8 @@ ul, li {
     grid-template-rows: 4fr;
     background-color: var(--bg-main);
     color: var(--text-primary);
+    row-gap: 0;
+    column-gap: 20px;
 }
 
 
@@ -52,20 +54,41 @@ a {
 /* header styling */
 
 .header {
-    grid-area: 1 / 2 / 2 / 4; 
     display: grid;
-    grid-template-columns: 1fr 2fr;
     align-items: center;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px ; 
 }
 
+.top-nav {
+    padding-top: 20px;
+
+}
 .nav > ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+li > a:hover {
+    text-decoration: none;
+    color: var(--primary-light);
 }
 
 .nav {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-start: 1;
+    grid-column-start: 1;
+
 }
 
 .nav form {
@@ -74,8 +97,11 @@ a {
 }
 
 .pro-pic {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    grid-column-start: 5;
 }
 
 .pro-pic img {
@@ -83,6 +109,7 @@ a {
     width: 50px;
     height: 50px;
     overflow: hidden;
+    grid-column: 2/3;
 }
 
 
@@ -244,12 +271,26 @@ a {
     display: grid;
     grid-area: 2 / 4 / 4 / 4;
     gap: 10px;
-    padding: 20px;
+    padding: 30px;
     border: solid whitesmoke;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+    max-width: 300px;
 }
+
+.announcements > h2, 
+.announcements > p,
+.announcements > a {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.announcements > h2 {
+    height: fit-content;
+}
+
+
+
 
 .trending {
     display: grid;
@@ -293,10 +334,11 @@ a {
 
 .footer {
     display: grid;
-    grid-area: 4 / 1 / 4 / 4; 
+    grid-area: 3 / 1 / 4 / 4; 
     justify-content: center;
     background-color: #256FCC;
     color: whitesmoke;
+    padding-top: 20px;
 }
 
 #footer-images {
