@@ -115,7 +115,7 @@ li > a:hover {
 }
 
 .search {
-    background-image: url(./images/icons/magnify.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/magnify.svg);
     border-radius: 100%;
     width: 25px;
     height: 25px;
@@ -142,7 +142,7 @@ li > a:hover {
 
 
 .notification {
-    background-image: url(./images/icons/notification.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/notification.svg);
     border-radius: 100%;
     width: 25px;
     height: 25px;
@@ -183,43 +183,43 @@ li > a:hover {
 /* icon images for sidebar*/
 
 #dashboard {
-    background-image: url(images/icons/engine.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/engine.svg);
 }
 
 #home {
-    background-image: url(images/icons/home-account.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/home-account.svg);
 }
 
 #profile {
-    background-image: url(images/icons/account.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/account.svg);
 }
 
 #messages {
-    background-image: url(images/icons/message.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/message.svg);
 }
 
 #tasks {
-    background-image: url(images/icons/checkbox-marked-circle-auto-outline.svg);    
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/checkbox-marked-circle-auto-outline.svg);    
 }
 
 #communities {
-    background-image: url(images/icons/forum.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/forum.svg);
 }
 
 #setting {
-    background-image: url(images/icons/engine.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/engine.svg);
 }
 
 #support {
-    background-image: url(images/icons/face-agent.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/face-agent.svg);
 }
 
 #privacy {
-    background-image: url(images/icons/privacy.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/privacy.svg);
 }
 
 #faq {
-    background-image: url(images/icons/chat-question.svg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/chat-question.svg);
 }
 
 .divider {
@@ -299,19 +299,19 @@ li > a:hover {
 }
 
 #bimage1{
-    background-image: url(/images/icons/b-image1.jpg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/b-image1.jpg);
 }
 
 #bimage2{
-    background-image: url(/images/icons/b-image2.jpg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/b-image2.jpg);
 }
 
 #bimage3{
-    background-image: url(/images/icons/b-image3.jpg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/b-image3.jpg);
 }
 
 #bimage4{
-    background-image: url(/images/icons/b-image4.jpg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/b-image4.jpg);
 }
 
 /* announcement bar styling */
@@ -372,7 +372,7 @@ li > a:hover {
 /* trending styling */
 
 .profile-pic { 
-    background-image: url(/images/icons/b-image4.jpg);
+    background-image: url(https://avinashlimbu.github.io/admin-dashboard/images/icons/b-image4.jpg);
     border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
