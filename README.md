@@ -6,6 +6,7 @@ This is a simple admin dashboard layout project built with HTML and CSS, inspire
 
 This dashboard is published via GitHub Pages and can be viewed live here:  
 [https://avinashlimbu.github.io/admin-dashboard/](https://avinashlimbu.github.io/admin-dashboard/)
+
 Best viewed in desktop, not mobile responsive yet. 
 ---
 
